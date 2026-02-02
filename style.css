@@ -1,0 +1,457 @@
+/* =====================================================
+   FONT PERSONALIZZATI
+   ===================================================== */
+
+@font-face {
+  font-family: 'ArsenicaTrial';
+  src: url('fonts/ArsenicaTrial-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AfacadBold';
+  src: url('fonts/AfacadBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* =====================================================
+   RESET BASE
+   ===================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* =====================================================
+   HEADER
+   ===================================================== */
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #c44d4a;
+  color: #fffef6;
+}
+
+/* Blocco sinistro: icona home + menu */
+.home-icone {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 23px;
+}
+
+/* Menu testuale header */
+.testo-header {
+  display: flex;
+  gap: 80px;
+  font-family: 'AfacadBold', sans-serif;
+  font-size: 15px;
+}
+
+/* Icone header */
+.icone {
+  display: flex;
+  gap: 15px;
+}
+
+.icone img {
+  filter: invert(1);
+}
+
+/* Titolo header */
+.title h1 {
+  margin: 0;
+  font-family: 'ArsenicaTrial', sans-serif;
+  font-size: 45px;
+}
+
+/* Icone interattive */
+.lente,
+.menu {
+  width: 25px;
+  height: 40px;
+  cursor: pointer;
+}
+
+
+/* =====================================================
+   HERO / BACKGROUND
+   ===================================================== */
+
+.vortice {
+  width: 100%;
+  height: 1000px;
+  background-image: url("resources/b.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 50px;
+}
+
+/* Bottone accedi */
+.accedi {
+  font-family: 'AfacadBold', sans-serif;
+  background-color: #c44d4a;
+  color: #fffef6;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+
+/* =====================================================
+   SEZIONE CALO LETTORI
+   ===================================================== */
+
+.sezione-calo-lettori {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: #fffef6;
+}
+
+.paragrafo-calo-lettori {
+  width: 100%;
+  margin-left: 64px;
+}
+
+.titolo-calo-lettori {
+  margin-left: 64px;
+  margin-top: 229px;
+  font-family: 'ArsenicaTrial', sans-serif;
+  font-size: 30px;
+  color: #c44d4a;
+}
+
+.titolo-calo-lettori-testo {
+  margin: 0;
+}
+
+.sottotitolo-calo-lettori {
+  margin-left: 64px;
+  margin-top: 4px;
+  font-family: 'AfacadSemiBoldItalic', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  color: #c44d4a;
+}
+
+.sottotitolo-calo-lettori-testo {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.testo-calo-lettori {
+  margin-left: 64px;
+  margin-top: 16px;
+  max-width: 501px;
+  font-family: 'AfacadRegular', sans-serif;
+  font-size: 18px;
+  color: #c44d4a;
+}
+
+.testo-calo-lettori-par1,
+.testo-calo-lettori-par2,
+.testo-calo-lettori-par3 {
+  padding-bottom: 15px;
+}
+
+/* Immagine libreria */
+.book-shelf-div {
+  width: 100%;
+  margin-left: auto;
+  margin-top: 229px;
+}
+
+.book-shelf-img {
+  width: 100%;
+  opacity: 0.7;
+}
+
+
+/* =====================================================
+   SEZIONE PREZZO LIBRI
+   ===================================================== */
+
+.prezzo-libri-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fffef6;
+}
+
+.pila-libri {
+  width: 100%;
+  margin-left: 185px;
+  opacity: 0.7;
+}
+
+.prezzo-libri-text {
+  margin-top: 65px;
+}
+
+.prezzo-libri-titolo {
+  font-family: 'ArsenicaTrial', sans-serif;
+  font-size: 40px;
+  color: #c44d4a;
+  margin: 0;
+}
+
+.prezzo-libri-sottotitolo {
+  font-family: 'AfacadSemiBoldItalic', sans-serif;
+  font-size: 32px;
+  font-style: italic;
+  color: #c44d4a;
+  margin: 0;
+}
+
+.prezzo-libri-paragrafi {
+  margin-top: 40px;
+  color: #c44d4a;
+}
+
+.prezzo-libri-par1,
+.prezzo-libri-par2,
+.prezzo-libri-par3 {
+  font-family: 'AfacadRegular', sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-top: 30px;
+  padding-right: 22%;
+}
+
+
+/* =====================================================
+   SEZIONE MEDIA
+   ===================================================== */
+
+.media-section {
+  background-color: #fffef6;
+}
+
+.media-section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.media-text {
+  padding-left: 40px;
+  padding-right: 60px;
+  color: #c44d4a;
+}
+
+.media-text-titolo h2 {
+  margin: 0;
+  font-family: 'ArsenicaTrial', sans-serif;
+  font-size: 40px;
+}
+
+.media-text-sottotitolo h3 {
+  margin-top: 10px;
+  font-family: 'AfacadSemiBoldItalic', sans-serif;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.media-text-paragrafi {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'AfacadRegular', sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.media-text-paragrafi p {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.media-text-immagine {
+  width: 60%;
+  height: auto;
+}
+
+
+/* Immagine sezione media */
+.media-text-immagine {
+  width: 60%;
+  opacity: 0.7;
+  overflow: hidden;
+}
+
+.media-text-immagine-img {
+  width: 724px;
+  height: 483px;
+}
+
+/* Colonna destra media */
+.media-text-colonnadestra {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.break {
+  flex-basis: 215%;
+  height: 0;
+}
+
+.media-text-testodestra {
+  font-family: 'AfacadRegular', sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #c44d4a;
+}
+
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+
+.section-footer {
+  position: relative;
+  background-color: #fffef6;
+}
+
+.footer-background img {
+  width: 100%;
+  opacity: 0.35;
+}
+
+.footer-rettangolo {
+  position: absolute;
+  bottom: 25px;
+  left: 20px;
+  right: 20px;
+  background-color: #fffef6;
+  border-radius: 16px;
+}
+
+/* Parte superiore footer */
+.parte-superiore {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.colonna-sx {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu {
+  list-style: none;
+  margin: 25px 0 0 15px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-family: 'AfacadSemiBold', sans-serif;
+  color: #c44d4a;
+}
+
+.colonna-dx {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 30px;
+}
+
+.footer-button {
+  font-family: 'AfacadBold', sans-serif;
+  background-color: #c44d4a;
+  color: #fffef6;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 40px;
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+
+/* Newsletter */
+.newsletter-section {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.newsletter-img {
+  display: flex;
+}
+
+/* FAQ */
+.footer-FAQS-section {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-FAQS {
+  display: flex;
+  gap: 12px;
+  font-family: 'AfacadSemiBold', sans-serif;
+  font-size: 14px;
+  color: #c44d4a;
+  padding-top: 20px;
+}
+
+.line-FAQS {
+  position: absolute;
+  left: 25px;
+  right: 25px;
+  margin-top: 45px;
+  border: 1.5px solid #c44d4a;
+}
+
+/* Parte inferiore footer */
+.parte-inferiore {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 27px;
+  margin-top: 18px;
+}
+
+.nome-sito {
+  font-family: 'ArsenicaTrial', sans-serif;
+  font-size: 11px;
+  color: #c44d4a;
+  margin-top: 90px;
+}
+
+.copyright {
+  font-family: 'AfacadSemiBold', sans-serif;
+  font-size: 14px;
+  color: #c44d4a;
+  margin-top: 90px;
+}
+
+.social-container {
+  display: flex;
+  gap: 14px;
+  margin-top: 82px;
+}
+
+.social-icon-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
