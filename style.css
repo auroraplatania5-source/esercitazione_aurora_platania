@@ -476,12 +476,12 @@ body {
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 28px 16px; 
+    padding: 28px 16px;
   }
 
-  .title h1 { 
+  .title h1 {
     font-size: 30px;
-    padding-top: 12px; 
+    padding-top: 12px;
   }
 
   .testo-header {
@@ -497,7 +497,7 @@ body {
   .accedi {
     width: 100%;
     max-width: 300px;
-    padding: 12px 28px;   /* leggermente più piccolo */
+    padding: 12px 28px;
     font-size: 14px;
   }
 
@@ -514,9 +514,9 @@ body {
     width: 60%;
   }
 
-  .titolo-calo-lettori { 
+  .titolo-calo-lettori {
     margin-top: 32px;
-    font-size: 20px; 
+    font-size: 20px;
   }
 
   .sottotitolo-calo-lettori {
@@ -539,10 +539,10 @@ body {
   }
 
   /* PREZZO LIBRI */
-  .prezzo-libri-section{
+  .prezzo-libri-section {
     display: flex;
     flex-direction: row;
-    align-items: center;      /* immagine centrata rispetto al testo */
+    align-items: center;
     gap: 24px;
     padding: 16px;
   }
@@ -550,24 +550,24 @@ body {
   /* COLONNA IMMAGINE */
   .pila-libri {
     width: 40%;
-    margin-left: 0;          
+    margin-left: 0;
     opacity: 0.7;
     display: flex;
-    justify-content: center;  /* immagine centrata nella colonna */
+    justify-content: center;
   }
 
-  .pila-libri img{
+  .pila-libri img {
     width: 100%;
     height: auto;
-    max-width: 260px;         
+    max-width: 260px;
   }
 
   /* COLONNA TESTO */
-  .prezzo-libri-text{
+  .prezzo-libri-text {
     width: 60%;
-    margin-top: 0; 
+    margin-top: 0;
   }
-  
+
   .prezzo-libri-titolo {
     font-size: 30px;
   }
@@ -591,7 +591,7 @@ body {
 
   .media-section-container {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
     gap: 18px;
   }
 
@@ -602,20 +602,20 @@ body {
   }
 
   /* Titolo e sottotitolo */
-  .media-text-titolo h2{
-    font-size: 30px;          
+  .media-text-titolo h2 {
+    font-size: 30px;
     margin: 0;
   }
 
   .media-text-sottotitolo h3 {
-    font-size: 18px;         
+    font-size: 18px;
     margin: 4px 0 0 0;
   }
 
   /* Paragrafi */
   .media-text-paragrafi {
     width: 100%;
-    font-size: 14px;        
+    font-size: 14px;
   }
 
   .media-text-paragrafi p {
@@ -630,8 +630,8 @@ body {
 
   .media-text-immagine-img {
     width: 100%;
-    height: auto;             
-    max-width: 100%;          
+    height: auto;
+    max-width: 100%;
   }
 
   /* testo che prima era "colonna destra", portato tutto sotto */
@@ -646,7 +646,7 @@ body {
   }
 
   .media-text-testodestra {
-    font-size: 14px;         
+    font-size: 14px;
   }
 
   .media-text-testodestra p {
@@ -655,7 +655,7 @@ body {
   }
 
   /* FOOTER più compatto */
-    .footer-rettangolo{
+  .footer-rettangolo {
     bottom: 16px;
     left: 16px;
     right: 16px;
@@ -663,13 +663,13 @@ body {
   }
 
   /* Parte superiore: stessa struttura, meno padding */
-  .parte-superiore{
+  .parte-superiore {
     padding-left: 8px;
   }
 
   /* Menu sinistra: stessa colonna, più piccolo */
   .colonna-sx {
-    font-size: 12px;          /* aggiunto per scalare */
+    font-size: 12px;
   }
 
   /* Colonna destra: stessa posizione, meno margine */
@@ -681,12 +681,12 @@ body {
   }
 
   /* Bottone: più piccolo */
-  .footer-button{
+  .footer-button {
     padding: 12px 20px;
     border-radius: 26px;
     margin-top: 22px;
     margin-bottom: 40px;
-    font-size: 12px;          /* aggiunto per scalare */
+    font-size: 12px;
   }
 
   .newsletter-section {
@@ -703,17 +703,17 @@ body {
     width: 60%;
     height: auto;
     display: block;
-    
+
   }
 
   /* FAQ: stesso layout in riga, testo più piccolo */
-  .footer-FAQS{
+  .footer-FAQS {
     gap: 10px;
     font-size: 12px;
     padding-top: 70px;
   }
 
-  .line-FAQS{
+  .line-FAQS {
     left: 18px;
     right: 18px;
     margin-top: 40px;
@@ -721,7 +721,7 @@ body {
   }
 
   /* Parte inferiore: stessa riga, meno margini */
-  .parte-inferiore{
+  .parte-inferiore {
     padding: 0 18px;
     margin-top: 14px;
   }
@@ -729,96 +729,96 @@ body {
   .nome-sito h1 {
     font-size: 16px;
   }
- 
-  .copyright { 
+
+  .copyright {
     font-size: 12px;
     margin-top: 56px;
   }
 
   .social-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end; 
-  gap: 8px;
-  flex-wrap: nowrap;
-}
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    flex-wrap: nowrap;
+  }
 
- .social-icon-img {
+  .social-icon-img {
     width: auto;
-   height: auto;
-   display: inline-flex;
-   align-items: center;
-   justify-content: center;
-   flex: 0 0 auto;
- }
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+  }
 
- .social-icon-img img {
-   height: auto;
-   display: block;
- }
+  .social-icon-img img {
+    height: auto;
+    display: block;
+  }
 
- .social-container a:first-child img {
-  height: 24px;
-}
+  .social-container a:first-child img {
+    height: 24px;
+  }
 
-.social-container a:last-child img {
-  width: 21px;
-  height: 21px;
-}
+  .social-container a:last-child img {
+    width: 21px;
+    height: 21px;
+  }
 }
 
 /* --------- <= 600px (mobile) --------- */
 @media (max-width: 600px) {
 
-/* HEADER */
-.section-header {
-  display: flex;
-  justify-content: space-between;
-}
+  /* HEADER */
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.vortice {
- height: auto;
-  min-height: clamp (360px, 65vh, 560px);
-  background-position: center top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 28px 16px; 
-}
+  .vortice {
+    height: auto;
+    min-height: clamp (360px, 65vh, 560px);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 28px 16px;
+  }
 
-.title h1 { 
-  font-size: 20px;
-  padding-top: 20px; 
-}
+  .title h1 {
+    font-size: 20px;
+    padding-top: 20px;
+  }
 
-.testo-header {
-  gap: 18px;
-  font-size: 12px;
-}
+  .testo-header {
+    gap: 18px;
+    font-size: 12px;
+  }
 
-.home-icone {
-  display: flex;
-}
+  .home-icone {
+    display: flex;
+  }
 
-.icone {
- gap: 5px;
-}
+  .icone {
+    gap: 5px;
+  }
 
-.icone img {
-  width: 32px;
-  height: 20px;
-  gap: 20px;
-}
+  .icone img {
+    width: 32px;
+    height: 20px;
+    gap: 20px;
+  }
 
-/* HERO: bottone*/
-.accedi {
-  width: 100%;
-  max-width: 300px;
-  padding: 8px 16px;   /* leggermente più piccolo */
-  font-size: 12px;
-}  
+  /* HERO: bottone*/
+  .accedi {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px 16px;
+    font-size: 12px;
+  }
 
 
-/* =====================================================
+  /* =====================================================
      SEZIONE CALO LETTORI -> 1 colonna
      ===================================================== */
   .sezione-calo-lettori {
@@ -828,9 +828,9 @@ body {
     padding: 28px 16px;
   }
 
-  .paragrafo-calo-lettori { 
-    margin-left: 0; 
-    width: 100%; 
+  .paragrafo-calo-lettori {
+    margin-left: 0;
+    width: 100%;
   }
 
   .titolo-calo-lettori,
@@ -842,12 +842,12 @@ body {
     max-width: 100%;
   }
 
-  .titolo-calo-lettori-testo { 
-    font-size: 18px; 
+  .titolo-calo-lettori-testo {
+    font-size: 18px;
   }
 
-  .sottotitolo-calo-lettori-testo { 
-    font-size: 14px; 
+  .sottotitolo-calo-lettori-testo {
+    font-size: 14px;
   }
 
   .testo-calo-lettori {
@@ -874,11 +874,11 @@ body {
   }
 
 
-/* PREZZO LIBRI */
+  /* PREZZO LIBRI */
   .prezzo-libri-section {
     display: flex;
     flex-direction: row;
-    align-items: center;      /* immagine centrata rispetto al testo */
+    align-items: center;
     gap: 24px;
     padding: 16px;
   }
@@ -886,24 +886,24 @@ body {
   /* COLONNA IMMAGINE */
   .pila-libri {
     width: 40%;
-    margin-left: 0;           
+    margin-left: 0;
     opacity: 0.7;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
   }
 
   .pila-libri img {
     width: 100%;
     height: auto;
-    max-width: 200px;         
+    max-width: 200px;
   }
 
   /* COLONNA TESTO */
   .prezzo-libri-text {
     width: 60%;
-    margin-top: 0; 
+    margin-top: 0;
   }
-  
+
   .prezzo-libri-titolo {
     font-size: 18px;
   }
@@ -931,7 +931,7 @@ body {
 
   .media-section-container {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
     gap: 18px;
   }
 
@@ -942,20 +942,20 @@ body {
   }
 
   /* Titolo e sottotitolo */
-  .media-text-titolo h2{
-    font-size: 18px;          
+  .media-text-titolo h2 {
+    font-size: 18px;
     margin: 0;
   }
 
   .media-text-sottotitolo h3 {
-    font-size: 14px;         
+    font-size: 14px;
     margin: 4px 0 0 0;
   }
 
   /* Paragrafi */
   .media-text-paragrafi {
     width: 100%;
-    font-size: 12px;        
+    font-size: 12px;
   }
 
   .media-text-paragrafi p {
@@ -970,8 +970,8 @@ body {
 
   .media-text-immagine-img {
     width: 100%;
-    height: auto;             
-    max-width: 100%;          
+    height: auto;
+    max-width: 100%;
   }
 
   /* testo che prima era "colonna destra": lo metti sotto tutto */
@@ -986,7 +986,7 @@ body {
   }
 
   .media-text-testodestra {
-    font-size: 12px;         
+    font-size: 12px;
   }
 
   .media-text-testodestra p {
@@ -996,7 +996,7 @@ body {
 
 
   /* FOOTER */
-    .footer-rettangolo{
+  .footer-rettangolo {
     bottom: 16px;
     left: 16px;
     right: 16px;
@@ -1004,13 +1004,13 @@ body {
   }
 
   /* Parte superiore: stessa struttura, meno padding */
-  .parte-superiore{
+  .parte-superiore {
     padding-left: 8px;
   }
 
   /* Menu sinistra: stessa colonna, più piccolo */
   .colonna-sx {
-    font-size: 10px;          /* aggiunto per scalare */
+    font-size: 10px;
   }
 
   /* Colonna destra: stessa posizione, meno margine */
@@ -1022,12 +1022,12 @@ body {
   }
 
   /* Bottone: più piccolo */
-  .footer-button{
+  .footer-button {
     padding: 12px 20px;
     border-radius: 26px;
     margin-top: 22px;
     margin-bottom: 40px;
-    font-size: 10px;          /* aggiunto per scalare */
+    font-size: 10px;
   }
 
   .newsletter-section {
@@ -1043,17 +1043,17 @@ body {
   .newsletter-img {
     width: 55%;
     height: auto;
-    display: block; 
+    display: block;
   }
 
   /* FAQ: stesso layout in riga, testo più piccolo */
-  .footer-FAQS{
+  .footer-FAQS {
     gap: 10px;
     font-size: 10px;
     padding-top: 70px;
   }
 
-  .line-FAQS{
+  .line-FAQS {
     left: 18px;
     right: 18px;
     margin-top: 40px;
@@ -1061,7 +1061,7 @@ body {
   }
 
   /* Parte inferiore: stessa riga, meno margini */
-  .parte-inferiore{
+  .parte-inferiore {
     padding: 0 18px;
     margin-top: 14px;
   }
@@ -1069,41 +1069,41 @@ body {
   .nome-sito h1 {
     font-size: 14px;
   }
- 
-  .copyright { 
+
+  .copyright {
     font-size: 10px;
     margin-top: 56px;
   }
 
   .social-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end; /* se le vuoi a destra */
-  gap: 8px;
-  flex-wrap: nowrap;
-}
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    flex-wrap: nowrap;
+  }
 
- .social-icon-img {
+  .social-icon-img {
     width: auto;
-   height: auto;
-   display: inline-flex;
-   align-items: center;
-   justify-content: center;
-   flex: 0 0 auto;
- }
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+  }
 
- .social-icon-img img {
-   height: auto;
-   display: block;
- }
+  .social-icon-img img {
+    height: auto;
+    display: block;
+  }
 
- .social-container a:first-child img {
-  height: 20px;
-}
+  .social-container a:first-child img {
+    height: 20px;
+  }
 
-.social-container a:last-child img {
-  width: 17px;
-  height: 18px;
-}
+  .social-container a:last-child img {
+    width: 17px;
+    height: 18px;
+  }
 }
 
